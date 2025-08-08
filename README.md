@@ -134,7 +134,7 @@ User Request → Public Load Balancer → Healthy VM in Zone 1 or Zone 2 → Sta
 
 ---
 
-## ✅ Benefits of This Setup
+## ✅ Benefits of This project
 
 * **High Availability**: Survives zone-level failures
 * **Scalability**: Add more VMs to backend pool easily
