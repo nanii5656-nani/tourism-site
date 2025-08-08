@@ -34,9 +34,6 @@ This project demonstrates how to deploy a **highly available static website** us
 The Resource Group acts as a logical container for all Azure resources in this project.
 
 ```bash
-# Variables
-RESOURCE_GROUP="StaticWebLB-RG"
-LOCATION="eastus"
 
 # Create Resource Group
 az group create \
