@@ -137,5 +137,50 @@ User Request → Public Load Balancer → Healthy VM in Zone 1 or Zone 2 → Sta
 * **Scalability**: Add more VMs to backend pool easily
 * **Cost-Effective**: Pay for what you use
 * **Automated Deployment**: ARM templates + scripts enable quick redeployments
+  
 
 ---
+
+## ✅ Outcomes of project
+
+## The project resource group that was created by Azure CLI 
+
+<img width="1905" height="1078" alt="projectresource" src="https://github.com/user-attachments/assets/a745b7b3-5ef3-4c31-9a4b-c2bd72964a3d" />
+
+---
+
+## The Virtual Network with Subnets1 abd Subnets2 that was created by ARM template
+
+<img width="1917" height="1079" alt="Screenshot 2025-08-08 233309" src="https://github.com/user-attachments/assets/93d40f97-a66e-4998-9478-17a7ab49aee1" />
+
+
+
+
+<img width="1919" height="1065" alt="myvnets" src="https://github.com/user-attachments/assets/9d7efc71-3025-4b62-b24e-54f8fc576603" />
+
+
+
+
+
+## The Ubuntu Linux Vitual Machines created with two different availability zones
+
+<img width="1686" height="1065" alt="vm screenshots" src="https://github.com/user-attachments/assets/18974ef7-bd25-4bf9-b8ce-204baf02a85b" />
+
+
+
+
+## The Load Balancer was created and assign all frontend and backend pool with Load balancing rules
+
+<img width="1919" height="1060" alt="loadbalancer" src="https://github.com/user-attachments/assets/bbd8ffc0-76f8-4a92-868c-884a2b9ca7ee" />
+
+
+
+<img width="1915" height="1075" alt="frontend ip" src="https://github.com/user-attachments/assets/3ef584c7-dffd-4651-97bb-548e454b499c" />
+
+
+
+
+
+## A tourist websie that deployed in Load Balancer 
+
+<img width="1908" height="1062" alt="website create screeshots" src="https://github.com/user-attachments/assets/3dd63e89-e76e-45d8-b257-e28c280d12db" />
