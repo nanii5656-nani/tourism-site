@@ -141,6 +141,28 @@ User Request → Public Load Balancer → Healthy VM in Zone 1 or Zone 2 → Sta
 
 ---
 
+## Azure Services and Tools Used
+
+1. Azure CLI: Resource group creation and management 
+
+2. Azure Resource Manager (ARM) Templates: Infrastructure-as-Code to deploy resources.
+
+3. Virtual Network (VNet): Networking and subnetting.
+
+4. Network Security Group (NSG): Security rules for VM access.
+
+5. Azure Virtual Machines: Hosting the website on multiple VMs.
+
+6. Azure Load Balancer: Load balancing between VMs.
+
+7. Nginx: Web server for hosting static content.
+
+8. Git: Version control and cloning the website onto VMs.
+
+9. Custom Script Extension: Automated configuration of VMs.
+
+---
+
 ## ✅ Outcomes of project
 
 ## The project resource group that was created by Azure CLI 
@@ -184,3 +206,9 @@ User Request → Public Load Balancer → Healthy VM in Zone 1 or Zone 2 → Sta
 ## A tourist websie that deployed in Load Balancer 
 
 <img width="1908" height="1062" alt="website create screeshots" src="https://github.com/user-attachments/assets/3dd63e89-e76e-45d8-b257-e28c280d12db" />
+
+---
+
+## Conclusion
+
+This project showcases the end-to-end process of deploying a static website using Azure's ARM templates and load balancing capabilities. By distributing traffic between two VMs in different availability zones, we ensure high availability and scalability for the HMGYM platform. The integration of Azure's powerful tools and services simplified the deployment and configuration process. "# ARM-Templates"
